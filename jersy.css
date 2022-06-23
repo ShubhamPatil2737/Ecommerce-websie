@@ -1,0 +1,13 @@
+nav li{
+    background-color: black;
+    color: white;
+    align-items: baseline;
+    text-align: center;
+    
+}
+nav{
+            
+    overflow: hidden;
+    text-align: center;
+    align-items: baseline;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE_OVERLAY</title>
+    <style>
+        .container{
+            position: relative;
+            width: 50%;
+           
+        }
+        .image{
+           width: 100%;
+           display: block;
+           opacity: 1;
+           transition: 5s;
+            
+           
+        }
+        .middle{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            opacity: 0;
+            transition: 5s;
+        }
+        .text{
+            background-color: black;
+            color: white;
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            
+           
+        }
+       .container:hover .image{
+             opacity: 0.5;
+           
+       }
+       .container:hover .middle{
+           opacity: 2;
+          
+       }
+    </style>
+</head>
+<body>
+    <h1>IMAGE_OVERLAY</h1>
+    <div class="container">
+       
+        <img src="Bleed Blue.jpg" alt="Wallpaper" class="image">
+        <div class="middle">
+        <div class="text">BLEED BLUE</div>
+    </div></div>
+</body>
+</html>
